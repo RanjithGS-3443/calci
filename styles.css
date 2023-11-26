@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    text-align: center;
+}
+
+input {
+    width: 225px;
+    font-size: 25px;
+    border-color: #220487;
+    border-width: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color:#07f537;
+    border-width: 100px;
+    border-color:#f50707;
+    grid-gap: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f50707;
+    border-width: 5px;
+    font-size: 16px;
+}
